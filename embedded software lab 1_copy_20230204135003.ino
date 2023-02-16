@@ -1,3 +1,6 @@
+//This code was written by Youssef Okab master student in robotics with industial applications from heriot watt university
+//The esp32-c3-wroom-02 was used for this assignment while the code was being run on arduino IDE
+//In this assignment pwm pulses are simulated while mode 3(c+3) will be used as the change caused by push button 2
 #define BT1 5 //Defining button 1 as pin GPIO5
 #define BT2 3 //Defining button 2 as pin GPIO3
 #define LED1 19 //Defining LED1 as pin GPIO19
@@ -43,8 +46,6 @@ void button_State()
   }
   }
 
-
-
 void loop() {  
 button_State();
 
@@ -71,7 +72,6 @@ button_State();
           }
     }
     
- 
   } 
   }
 
