@@ -10,9 +10,9 @@ const int a = 1200; //stating the constant integer as a = 1200
 const int b = 1100; // stating the constant integer as b = 1100
 const int d = 1000; // stating the constant integer as d = 1000
 byte count = count; // stating byte count is equal to variable count
-int addeddelay = -50; // stating the intial addeddelay value as negative 50 (since the first pulse will have to be zero)
-int BT1_state = 0; // button 1 state is intially zero
-int BT2_state = 0; // button 2 state is intially zero
+int addeddelay = -50; // stating the initial addeddelay value as negative 50 (since the first pulse will have to be zero)
+int BT1_state = 0; // button 1 state is initially zero
+int BT2_state = 0; // button 2 state is initially zero
 
 void setup() {
   pinMode(LED1, OUTPUT); //setting LED1 Pin as output
